@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f0dabe-3787-4211-91c9-111b3db186fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LogicalRegression/Project1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogicalRegression/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogicalRegression/testSet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogicalRegression/Project1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogicalRegression/Project1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DecisionTree/DecisionTree-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="176">
               <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -68,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LogicalRegression/Project1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="269">
+              <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
               <folding>
                 <element signature="e#55#73#0" expanded="true" />
               </folding>
@@ -110,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-84" />
     <option name="y" value="18" />
     <option name="width" value="981" />
@@ -287,11 +285,12 @@
       <workItem from="1583830815834" duration="3546000" />
       <workItem from="1583895536169" duration="11926000" />
       <workItem from="1583981791477" duration="50000" />
+      <workItem from="1583981986423" duration="417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46639000" />
+    <option name="totallyTimeSpent" value="47056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -362,7 +361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DecisionTree/DecisionTree-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="176">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
@@ -386,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LogicalRegression/Project1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="269">
+          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
           <folding>
             <element signature="e#55#73#0" expanded="true" />
           </folding>
