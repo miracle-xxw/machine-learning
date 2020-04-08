@@ -89,21 +89,30 @@ def plotBestFit(wei):
     plt.show()
 
 
-def stocGraAscent(dataMatrix,classLabels):
+def stocGraAscent(dataMatrix,classLabels,numIter=150):
     # 100,3
     m,n = np.shape(dataMatrix)
-    alphha = 0.001
+    # alphha = 0.001
     # 数组 3
     weights = np.ones(3)
-    for k in range(m):
-        # 100 * 1
-        h = sigmoid(dataMatrix[k] * weights)
-        error = (classLabels[k] - h)
-        weights = weights + alphha * dataMatrix[k].transpose() * error
+    for j in range(numIter):
+        dataIndex = range(m)
+        for k in range(m):
+            alpha = 4/(1.0+j+k)+0.01
+            randIndex = int(np.random.uniform(0,len(dataIndex)))
+            # 100 * 1
+            h = sigmoid(sum(dataMatrix[randIndex]) * weights)
+            error = (classLabels[k] - h)
+            weights = weights + alpha * dataMatrix[k].transpose() * error
 
     return weights
 
-
+def classifyVector(inX,weights):
+    prob = sigmoid(sum(inX * weights))
+    if prob > 0.5:
+        return 1.0
+    else:
+        return 0.0
 
 
 dataMat, labelMat = loadDataSet()
@@ -115,8 +124,6 @@ print(weights2)
 plotBestFit(weights2)
 
 
-#这是master修改的
-# 这是xxw修改的
 
 
 
